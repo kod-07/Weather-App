@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import "./SearchBox.css";
 import { useState } from 'react';
 let gioApi = "http://api.openweathermap.org/geo/1.0/direct?q=";
-let weatherApiKey = "7ddf86c8b1b245b3b0b4c716f6de41d5"
+const weatherApiKey = import.meta.env.VITE_WEATHER_API_KEY;
 let weatherApi = "https://api.openweathermap.org/data/2.5/weather?"
 
 
